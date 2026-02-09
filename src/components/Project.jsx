@@ -11,7 +11,7 @@ export default function Projects() {
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true }}
   transition={{ duration: 0.6 }}
-  className="px-6 pt-32"
+  className="px-20 pt-32"
 >
       <h2 className="section-title">Selected Projects</h2>
 

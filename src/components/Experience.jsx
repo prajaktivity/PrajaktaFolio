@@ -9,7 +9,7 @@ export default function Experience() {
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true }}
   transition={{ duration: 0.6 }}
-  className="px-6 pt-32 pb-32"
+  className="px-20 pt-32 pb-32"
 >
 
       <h2 className="section-title">Experience</h2>

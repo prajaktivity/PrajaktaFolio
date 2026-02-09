@@ -13,6 +13,7 @@ export default function Navbar() {
       "
     >
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+      <img src="" alt="Profile picture of Rakesh Sangem"/>
       <span className="font-semibold text-zinc-900 dark:text-zinc-100">
   Prajakta
 </span>

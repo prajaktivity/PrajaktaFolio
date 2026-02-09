@@ -1,33 +1,36 @@
 import { motion } from "framer-motion"
 import profile from "../assets/IMG_1208.jpg"
+import SocialLinks from "./SocialLinks"
 
 export default function Hero() {
   return (
     <motion.section
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-      className="relative flex min-h-[75vh] items-center overflow-hidden px-6"
+    initial={{ opacity: 0, y: 30 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.6 }}
+      className="relative flex min-h-[75vh] items-center overflow-hidden px-20"
     >
       <div className="z-10 max-w-2xl">
-        <h1 className="text-6xl font-bold tracking-tight">
-          Prajakta
+      <h3 class="mb-3 text-sm font-medium uppercase  text-zinc-400 tracking-widest text-primary">
+          Hello, I'm
+        </h3>
+        <h1 className="mb-3 text-6xl font-bold tracking-tight">
+          Prajakta W.
         </h1>
+        
+        <h2 className="mb-3 text-3xl text-zinc-400 tracking-widest text-primary">
+          Full Stack Developer 
+        </h2>
 
-        <p className="mt-3 text-xl text-zinc-400">
-          Full Stack Developer · .NET · React · Azure
-        </p>
-
-        <p className="mt-8 text-lg leading-relaxed text-zinc-300">
+        <p className="mt-8 text-lg leading-relaxed text-zinc-500">
           I build scalable backend systems, cloud-native APIs, and distributed
           architectures using .NET and Microsoft Azure.
+          Proficient in building scalable and efficient backend systems using .NET with REST API for seamless integration.
+          Proficient in scripting languages including JavaScript, React for front-end application development, micro front end application development.
         </p>
+        
+        <SocialLinks />
 
-        <div className="mt-10 flex gap-4">
-          <a href="https://github.com/prajakta1205" className="btn">GitHub</a>
-          <a href="https://www.linkedin.com/in/prajakta1205" className="btn">LinkedIn</a>
-          <a href="https://x.com/Prajakta1205_" className="btn">Twitter</a>
-        </div>
       </div>
 
       {/* BIG RIGHT PHOTO */}

@@ -9,7 +9,7 @@ export default function Projects() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="px-20 pt-32 scroll-mt-28"
+      className="min-h-screen py-24 pt-0 scroll-mt-28"
     >
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         
@@ -17,7 +17,7 @@ export default function Projects() {
           Projects
         </h2>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-2">
+        <div className="mt-8 grid gap-6 md:grid-cols-2">
           <ProjectCard
             title="Real Time Sales Intelligence"
             tech=".NET · Azure · Microservices · RavenDB"
@@ -28,7 +28,7 @@ export default function Projects() {
               "Optimized database performance using RavenDB indexes",
               "Azure Speech-to-Text (STT) for enhanced transcription workflows"
             ]}
-            link="https://github.com/prajakta1205"
+            // link="https://github.com/prajakta1205"
           />
 
           <ProjectCard
@@ -42,7 +42,7 @@ export default function Projects() {
               "Firebase Cloud Messaging (FCM) for real-time push notifications.",
 
             ]}
-            link="https://github.com/prajakta1205"
+            // link="https://github.com/prajakta1205"
           />
 
         <ProjectCard
@@ -56,7 +56,7 @@ export default function Projects() {
               "extensive use of LINQ.",
 
             ]}
-            link="https://github.com/prajakta1205"
+            // link="https://github.com/prajakta1205"
           />
 
 
@@ -71,7 +71,7 @@ export default function Projects() {
               "Instant Communication to display Notification, any real time changes",
 
             ]}
-            link="https://github.com/prajakta1205"
+            // link="https://github.com/prajakta1205"
           />
  </div>
       </div>

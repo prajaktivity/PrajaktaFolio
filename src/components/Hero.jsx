@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import profile from "../assets/IMG_1208.jpg"
+import profile from "../assets/IMG_1208-modified.png"
 import SocialLinks from "./SocialLinks"
 
 export default function Hero() {
@@ -66,6 +66,10 @@ export default function Hero() {
       <h2 className="mt-4 text-2xl md:text-3xl text-slate-700 dark:text-slate-300">
         Full Stack Developer
       </h2>
+      
+      <h3 className="mt-4 text-sm-3xl tracking-widest text-slate-700 dark:text-slate-300">
+        Email : prajakta_12@ymail.com
+      </h3>
 
       <p className="mt-6 text-slate-600 dark:text-slate-400 leading-relaxed">
         I build scalable backend systems, cloud-native APIs, and distributed

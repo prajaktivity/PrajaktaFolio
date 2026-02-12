@@ -66,7 +66,7 @@ export default function Experience() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="py-24 scroll-mt-28"
+      className="min-h-screen py-24 scroll-mt-28"
     >
       <div className="max-w-6xl mx-auto px-6">
 

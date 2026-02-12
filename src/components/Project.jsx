@@ -13,7 +13,7 @@ export default function Projects() {
     >
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         
-        <h2 className="text-2xl font-semibold text-slate-900 dark:text-white">
+        <h2 className="text-3xl font-bold text-center text-slate-900 dark:text-white">
           Projects
         </h2>
 

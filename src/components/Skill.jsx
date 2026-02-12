@@ -13,9 +13,9 @@ export default function Skills() {
       {/* 🔥 SAME CONTAINER AS NAVBAR + HERO */}
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         
-        <h2 className="text-2xl font-semibold text-slate-900 dark:text-white">
+        <h1 className="text-3xl font-bold text-center text-slate-900 dark:text-white">
           Core Expertise
-        </h2>
+        </h1>
 
         <div className="mt-12 grid gap-6 md:grid-cols-4">
           <SkillCard title="Backend" skills={[".NET 8/9", "ASP.NET Core", "REST APIs", "Microservices", "EF", "LINQ"]} />

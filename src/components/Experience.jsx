@@ -7,11 +7,11 @@ import { motion } from "framer-motion"
 const skills = [
   { name: "C#", level: 90 },
   { name: ".NET", level: 90 },
-  { name: "React", level: 75 },
-  { name: "JavaScript", level: 70 },
+  { name: "React", level: 85 },
+  { name: "JavaScript", level: 80 },
   { name: "SQL", level: 85 },
-  { name: "RavenDB", level: 70 },
-  { name: "Azure", level: 70 },
+  { name: "RavenDB", level: 80 },
+  { name: "Azure", level: 80 },
 ]
 
 const experiences = [
@@ -72,12 +72,12 @@ export default function Experience() {
 
         {/* ===== HEADER ===== */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
+          <h2 className="text-3xl font-bold text-center text-slate-900 dark:text-white">
             Experience & Skills
           </h2>
-          <p className="mt-3 text-slate-600 dark:text-slate-400">
+          {/* <p className="mt-3 text-center text-slate-600 dark:text-slate-400">
             My technical expertise and professional journey.
-          </p>
+          </p> */}
         </div>
 
         {/* ===== GRID LAYOUT ===== */}

@@ -9,7 +9,7 @@ export default function Projects() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="min-h-screen py-16 pt-12 md:py-24 md:pt-0 min-h-[150vh]"
+      className="min-h-screen pt-12 md:pt-0 min-h-[150vh]"
     >
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         <h2 className="text-3xl font-bold text-center text-slate-900 dark:text-white">

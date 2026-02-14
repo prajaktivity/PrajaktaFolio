@@ -9,7 +9,7 @@ export default function Skills() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="min-h-0 px-0 pb-16 min-h-[90vh] md:pb-0"
+      className="min-h-screen flex items-center justify-center px-6 md:px-16"
     >
       {/* 🔥 SAME CONTAINER AS NAVBAR + HERO */}
       <div className="max-w-6xl mx-auto px-6 md:px-12">

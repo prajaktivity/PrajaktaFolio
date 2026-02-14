@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTheme } from '../context/ThemeContext'
+import { HiOutlineSun, HiOutlineMoon } from 'react-icons/hi'
 import img from '../assets/IMG_1208-modified.png'
 
 export default function Navbar() {
@@ -45,8 +46,17 @@ export default function Navbar() {
             <a href="#contact" className="nav-link">
               Contact
             </a>
-            <button onClick={toggleTheme} className="cursor-pointer">
-              {theme === 'dark' ? '🌙 Dark' : '☀️ Light'}
+            <button
+              onClick={toggleTheme}
+              className="flex items-center gap-2 cursor-pointer"
+              aria-label="Toggle light/dark mode"
+            >
+              {theme === 'dark' ? (
+                <HiOutlineMoon className="w-5 h-5" />
+              ) : (
+                <HiOutlineSun className="w-5 h-5" />
+              )}
+              {/* <span>{theme === 'dark' ? 'Dark' : 'Light'}</span> */}
             </button>
           </div>
 
@@ -57,7 +67,11 @@ export default function Navbar() {
               className="p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors text-sm"
               aria-label="Toggle light/dark mode"
             >
-              {theme === 'dark' ? '🌙' : '☀️'}
+              {theme === 'dark' ? (
+                <HiOutlineMoon className="w-5 h-5" />
+              ) : (
+                <HiOutlineSun className="w-5 h-5" />
+              )}
             </button>
             <button
             type="button"

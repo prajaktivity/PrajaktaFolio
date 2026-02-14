@@ -1,23 +1,22 @@
-import { createContext, useContext, useEffect, useState } from "react"
+import { createContext, useContext, useEffect, useState } from 'react'
 
 const ThemeContext = createContext()
 
 export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState("dark")
-
+  const [theme, setTheme] = useState('dark')
 
   useEffect(() => {
     const root = document.documentElement
 
-    if (theme === "dark") {
-      root.classList.add("dark")
+    if (theme === 'dark') {
+      root.classList.add('dark')
     } else {
-      root.classList.remove("dark")
+      root.classList.remove('dark')
     }
   }, [theme])
 
   const toggleTheme = () => {
-    setTheme((prev) => (prev === "dark" ? "light" : "dark"))
+    setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'))
   }
 
   return (

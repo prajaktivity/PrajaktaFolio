@@ -1,4 +1,4 @@
-import { motion } from "framer-motion"
+import { motion } from 'framer-motion'
 
 export default function ProjectCard({
   title,
@@ -10,7 +10,7 @@ export default function ProjectCard({
   return (
     <motion.div
       whileHover={{ y: -6 }}
-      transition={{ type: "spring", stiffness: 300 }}
+      transition={{ type: 'spring', stiffness: 300 }}
       className="
         rounded-xl border p-6 transition-all duration-300
 
@@ -27,14 +27,10 @@ export default function ProjectCard({
       </h3>
 
       {/* Tech */}
-      <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-        {tech}
-      </p>
+      <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{tech}</p>
 
       {/* Description */}
-      <p className="mt-4 text-slate-600 dark:text-slate-400">
-        {description}
-      </p>
+      <p className="mt-4 text-slate-600 dark:text-slate-400">{description}</p>
 
       {/* Points */}
       <ul className="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-400">

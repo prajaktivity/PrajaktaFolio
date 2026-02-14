@@ -11,6 +11,7 @@ Live Demo: [https://prajaktaw.me/](https://prajaktaw.me/)
 This portfolio showcases my skills, projects, and professional experience as a Full Stack Developer.
 
 It highlights:
+
 - Core technical expertise
 - Featured projects
 - Work experience
@@ -39,4 +40,3 @@ It highlights:
 - Optimized performance
 
 --
-

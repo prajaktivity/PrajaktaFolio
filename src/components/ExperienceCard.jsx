@@ -1,10 +1,10 @@
-import { motion } from "framer-motion"
+import { motion } from 'framer-motion'
 
 export default function ExperienceCard({ role, company, period, points }) {
   return (
     <motion.div
       whileHover={{ y: -6 }}
-      transition={{ type: "spring", stiffness: 300 }}
+      transition={{ type: 'spring', stiffness: 300 }}
       className="
         rounded-xl border p-6 transition
 
@@ -21,9 +21,7 @@ export default function ExperienceCard({ role, company, period, points }) {
           <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
             {role}
           </h3>
-          <p className="text-slate-600 dark:text-slate-400">
-            {company}
-          </p>
+          <p className="text-slate-600 dark:text-slate-400">{company}</p>
         </div>
 
         <span className="text-sm text-slate-500 dark:text-slate-400">

@@ -44,7 +44,7 @@ const experiences = [
   {
     year: 'Mar 2018 – Apr 2019',
     role: 'Software Developer',
-    company: 'Edelweiss Broking',
+    company: 'Acceligent Business Solutions',
   },
   {
     year: 'Feb 2016 – Jan 2018',

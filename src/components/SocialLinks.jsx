@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 const socials = [
-  { icon: FaGithub, link: 'https://github.com/prajakta1205/' },
+  { icon: FaGithub, link: 'https://github.com/prajaktivity' },
   { icon: FaLinkedin, link: 'https://linkedin.com/in/prajakta1205/' },
-  { icon: FaTwitter, link: 'https://twitter.com/prajakta1205_/' },
+  { icon: FaTwitter, link: 'https://x.com/prajaktivity' },
 ]
 
 export default function SocialLinks() {
